@@ -1,0 +1,33 @@
+<form [formGroup]="frmEmployee" (ngSubmit)="onSubmit()">
+
+    <div class="form-group">
+        <label>Client Id</label>
+        <input type="text" class="form-control" formControlName="clientid">
+        <span class="alert-danger" *ngIf="frmEmployee.controls['clientid'].hasError('required')">Client ID Required</span>
+        <span class="alert-danger" *ngIf="frmEmployee.controls['clientid'].hasError('minlength')">Required 6 Character</span>
+        
+    </div>
+
+    <div class="form-group">
+        <label>Client Name</label>
+        <input type="text" class="form-control" formControlName="clientname">
+        <span class="alert-danger" *ngIf="frmEmployee.controls['clientname'].hasError('required')">Client Name Required</span>
+        <span class="alert-danger" *ngIf="frmEmployee.controls['clientname'].hasError('minlength')">Name Required 3 Character</span>
+        <span class="alert-danger" *ngIf="frmEmployee.controls['clientname'].hasError('maxlength')">Max Length 20 character</span>
+    </div>
+
+    
+    <div class="form-group">
+        <label>Client Address</label>
+        <input type="text" class="form-control" formControlName="clientaddress">
+        <span class="alert-danger" *ngIf="frmEmployee.controls['clientaddress'].hasError('required')">Client Name Required</span>
+    </div>
+
+    <div class="form-group">
+        <label>Client Number</label>
+        <input type="text" class="form-control" formControlName="clientnumber">
+        <span class="alert-danger" *ngIf="frmEmployee.controls['clientnumber'].hasError('pattern')">Enter Number</span>
+        <span class="alert-danger" *ngIf="frmEmployee.controls['clientnumber'].hasError('required')">Number Requird</span>
+    </div>
+
+</form>
