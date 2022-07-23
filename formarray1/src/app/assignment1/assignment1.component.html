@@ -1,0 +1,35 @@
+<h5>Employee Details</h5>
+
+<div class="container mt-2">
+    <div class="row">
+        <div class="col-6">
+            <table class="table table-striped">
+                <th>Employee Id</th>
+                <th>Employee Name</th>
+                <th>Salary</th>
+                <th>Details</th>
+                <tr *ngFor="let emp of empData">
+                    <td>{{emp.eid}}</td>
+                    <td>{{emp.ename}}</td>
+                    <td>{{emp.salary}}</td>
+                    <td><button class="btn btn-info" (click)="onSelect(emp)">Select</button></td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="col-6">
+            <table class="table table-striped">
+                <th>Employee Id</th>
+                <th>Employee Name</th>
+                <th>Salary</th>
+                <th>Details</th>
+                <tr *ngFor="let emp of empData2">
+                    <td>{{emp.eid}}</td>
+                    <td>{{emp.ename}}</td>
+                    <td>{{emp.salary}}</td>
+                    <td><button class="btn btn-info" (click)="onSelect(emp.eid)">Select</button></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>
