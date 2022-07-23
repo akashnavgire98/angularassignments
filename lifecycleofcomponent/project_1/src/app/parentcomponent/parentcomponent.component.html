@@ -1,0 +1,19 @@
+
+<div>
+    <p>parentcomponent works!</p>
+
+        <div class="form-group">
+            <label>User Name</label>
+            <input type="text" class="form-control" [(ngModel)]="nameDisplay">
+        </div>
+
+        <div class="form-group">
+            <button class="btn btn-success" (click)="onSubmit()">Submit</button>
+        </div>
+    
+   
+</div>
+
+<div>
+    <app-childcomponent [propCounter]="nameDisplayValue"></app-childcomponent>
+</div>
