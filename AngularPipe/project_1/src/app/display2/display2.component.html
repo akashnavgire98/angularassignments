@@ -1,0 +1,12 @@
+<p>display2 works!</p>
+
+<table class="table table-striped">
+    <th>UserId</th>
+    <th>UserName</th>
+    <th>Status</th>
+    <tr *ngFor="let adm of arrAdminDetails">
+        <td>{{adm.userid}}</td>
+        <td>{{adm.username}}</td>
+        <td>{{adm.status | userstatus}}</td>
+    </tr>
+</table>
