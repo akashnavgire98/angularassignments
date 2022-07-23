@@ -1,0 +1,17 @@
+
+
+<h1>display5 ngSwitchCase Directive </h1>
+<div class="form-group">
+    <label>Enter a Number</label>
+    <input type="text" class="form-control" [(ngModel)]="value"/>
+</div>
+
+<div [ngSwitch]="value">
+    <p *ngSwitchCase="100">One Hundred</p>
+    <p *ngSwitchCase="101">One Hundred one</p>
+    <p *ngSwitchCase="102">One Hundred two</p>
+    <p *ngSwitchCase="103">One Hundred three</p>
+    <p *ngSwitchCase="104">One Hundred four</p>
+    <p *ngSwitchCase="105">One Hundred five</p>
+    <p *ngSwitchDefault>Please Enter Value between 100 to 105</p>
+</div>

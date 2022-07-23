@@ -1,0 +1,19 @@
+<h1>task1</h1>
+
+<div>
+    
+        <h1 class="bg-primary text-white">List of Names</h1>
+        <br>
+        <br>
+        <h1 [ngClass]="{'text-danger':color1, 'text-primary':color2, 'text-success':color3}">Rahul</h1>
+        <h1 [ngClass]="{'text-danger':color1, 'text-primary':color2, 'text-success':color3}">Nidhi</h1>
+        <h1 [ngClass]="{'text-danger':color1, 'text-primary':color2, 'text-success':color3}">Radhika</h1>
+        <h1 [ngClass]="{'text-danger':color1, 'text-primary':color2, 'text-success':color3}">Anuj</h1>
+        <h1 [ngClass]="{'text-danger':color1, 'text-primary':color2, 'text-success':color3}">Karan</h1>
+        
+         <!-- <p>hdr1:{{hdr1}}</p> -->
+        <button class="btn btn-danger" (click)="oncolor1Change()">red</button>
+        <button class="btn btn-primary" (click)="oncolor2Change()">Blue</button>
+        <button class="btn btn-success" (click)="oncolor3Change()">Green</button>
+    
+</div>
