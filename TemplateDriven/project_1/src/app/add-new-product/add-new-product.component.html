@@ -1,0 +1,34 @@
+<h5>Add New Product</h5>
+
+<form #frmProduct="ngForm" (ngSubmit)="onSubmit(frmProduct)">
+    <div class="form-group">
+        <label>Product Id</label>
+        <input type="text" class="form-control" required minlength="3" name="productid" ngModel>
+    </div>
+
+    <div class="form-group">
+        <label>Product Name</label>
+        <input type="text" class="form-control" required minlength="3" maxlength="20" name="productname" ngModel>
+    </div>
+
+    <div class="form-group">
+        <label>Price</label>
+        <input type="text" class="form-control" required pattern="(^[0-9]+$)" name="price" ngModel>
+    </div>
+
+    <div class="form-group">
+        <label>Size</label>
+        <input type="text" class="form-control" required minlength="2" pattern="(^[0-9]+$)" name="size" ngModel>
+    </div>
+
+    <div class="form-group">
+        <label>Status</label>
+        <input type="text" class="form-control" required  name="status" ngModel>
+    </div>
+
+    <div class="form-group">
+        <button class="btn btn-success" type="submit">Submit</button>
+    </div>
+    
+    
+</form>

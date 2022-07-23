@@ -1,0 +1,30 @@
+<h5> Template Driven Form</h5>
+
+<form #frmContact="ngForm" (ngSubmit)="onSubmit(frmContact)">
+    <div class="form-group">
+        <label>Contact Id</label>
+        <input type="text" class="form-control" required name="contactid" ngModel />
+    </div>
+
+    <div class="form-group">
+        <label>Contact Name</label>
+        <input type="text" class="form-control" required minlength ="3" maxlength="20" name="contactname" ngModel />
+    </div>
+
+    <div class="form-group">
+        <label>Address</label>
+        <input type="text" class="form-control" required name="address" ngModel />
+    </div>
+
+    <div class="form-group">
+        <label>Phone</label>
+        <input type="text" class="form-control" required name="phone" ngModel />
+    </div>
+
+    <div class="form-group">
+       <button class="btn btn-success" type="submit">Submit</button>
+    </div>
+
+    <h3>{{result}}</h3>
+
+</form>

@@ -1,0 +1,25 @@
+<p>userlist works!</p>
+<h5>User List</h5>
+
+<div>
+    <table class="table">
+        <thead>
+            <th>User Id</th>
+            <th>Display Name</th>
+        </thead>
+        <tbody *ngFor="let user of uservalue">
+            <tr>
+                <td>{{user.userid}}</td>
+                <td>{{user.username}}</td>
+                <td><button class="btn btn-info text-white" (click)="onDetails(user.userid)">Details</button></td>
+            </tr>
+            <tr *ngIf="userempid === user.userid">
+                <td colspan="4">
+                    <app-userchild [PropUser]="user"></app-userchild>
+                </td>
+
+            </tr>
+
+        </tbody>
+    </table>
+</div>
