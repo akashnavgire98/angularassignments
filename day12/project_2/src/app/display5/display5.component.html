@@ -1,0 +1,15 @@
+<p>display5 works!</p>
+
+
+<div>
+    <ul>
+        <li *ngFor="let nums of arrNums">
+            {{nums}}
+        </li>
+    </ul>
+</div>
+<div class="form-group">
+    <label> Add Number</label>
+    <input type="text"  #numVal class="form-control">
+    <button (click)="onSubmit(numVal)">Submit</button>
+</div>
