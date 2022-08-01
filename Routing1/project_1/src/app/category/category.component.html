@@ -1,0 +1,25 @@
+
+<div class="row">
+    <div class="col-6">
+        <div>
+            <table class="table">
+                <thead>
+                    <th>Id</th>
+                    <th>Company</th>
+                </thead>
+
+                <tbody>
+                    <tr *ngFor="let product of productData">
+                        <td>{{product.productid}}</td>
+                        <td>{{product.productcompany}}</td>
+                        <td><a class="btn btn-primary" [routerLink]="['/category/product/',product.productid,product.productname ]">Product</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <div>
+        <router-outlet></router-outlet>
+    </div>
+</div>
