@@ -1,0 +1,180 @@
+{
+  "clients": [
+    {
+      "id": 1,
+      "clientname": "ABC Pvt Ltd",
+      "address": "plot no.123",
+      "city": "pune"
+    },
+    {
+      "id": 2,
+      "clientname": "ABC Pvt Ltd",
+      "address": "plot no.124",
+      "city": "New Delhi"
+    }
+  ],
+  "Users": [
+    {
+      "id": 1,
+      "user": "admin",
+      "status": "active"
+    },
+    {
+      "id": 2,
+      "user": "user",
+      "status": "Disable"
+    },
+    {
+      "id": "3",
+      "user": "akash",
+      "status": "disable"
+    },
+    {
+      "id": "4",
+      "user": "",
+      "status": ""
+    },
+    {
+      "id": "5",
+      "user": "om",
+      "status": "disable"
+    },
+    {
+      "id": "6",
+      "user": "aditya",
+      "status": "active"
+    },
+    {
+      "id": "7",
+      "user": "abhay",
+      "status": "active"
+    }
+  ],
+  "Login": [
+    {
+      "id": "1",
+      "username": "akash",
+      "password": "123"
+    },
+    {
+      "id": "2",
+      "username": "abhay",
+      "password": "456"
+    }
+  ],
+  "EmployeeDetails": [
+    {
+      "emoployeename": "akash",
+      "address": "kasba",
+      "city": "pune"
+    },
+    {
+      "emoployeename": "om",
+      "address": "bibwewadi",
+      "city": "solapur"
+    },
+    {
+      "emoployeename": "aditya",
+      "address": "sinhagad",
+      "city": "pune"
+    },
+    {
+      "emoployeename": "viraj",
+      "address": "kasba",
+      "city": "pune"
+    },
+    {
+      "emoployeename": "nikhil",
+      "address": "Btkavde",
+      "city": "pune"
+    },
+    {
+      "emoployeename": "abhay",
+      "address": "rasta peth",
+      "city": "pune"
+    }
+  ],
+  "ShauryaUser": [
+    {
+      "id": "Oaq_xgT",
+      "name": "asdf",
+      "mobile_no": 2345667,
+      "Gender": "male",
+      "education": "BA",
+      "course": null
+    },
+    {
+      "id": "qPaV5An",
+      "name": "akashh",
+      "mobile_no": 231456,
+      "Gender": "male",
+      "education": "BA",
+      "course": [
+        "Angular"
+      ]
+    },
+    {
+      "id": "DIU6_yO",
+      "name": "",
+      "mobile_no": "",
+      "Gender": "",
+      "education": "",
+      "course": null
+    },
+    {
+      "id": "p5j0XGl",
+      "name": "akshh",
+      "mobile_no": 12233,
+      "Gender": "male",
+      "education": "BSc",
+      "course": [
+        "Angular",
+        "Dot Net"
+      ]
+    }
+  ],
+  "contactform": [
+    {
+      "id": "",
+      "name": "",
+      "contactNumber": "",
+      "email": "",
+      "message": ""
+    },
+    {
+      "id": "uESARdf",
+      "name": "akash",
+      "contactNumber": "",
+      "email": "",
+      "message": "hii"
+    },
+    {
+      "name": "aditya",
+      "contactNumber": "8521347030",
+      "email": "akashnavgire98@gmail.com",
+      "message": "hii from aditya",
+      "id": "o9h_y0G"
+    },
+    {
+      "name": "akash",
+      "contactNumber": "12345678999",
+      "email": "akashnavgire98@gmail.com",
+      "message": "hiii",
+      "id": "Ypapw6l"
+    },
+    {
+      "name": "akash",
+      "contactNumber": "123456789991",
+      "email": "akashnavgire98@gmail.com",
+      "message": "hiii",
+      "id": "7N4sjsD"
+    },
+    {
+      "name": "ddddd",
+      "contactNumber": "444444444444",
+      "email": "aaaaa@gmail.com",
+      "message": "sdgfasdga",
+      "id": "65mKsA-"
+    }
+  ]
+}
