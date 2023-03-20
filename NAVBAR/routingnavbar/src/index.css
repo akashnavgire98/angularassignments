@@ -1,0 +1,8 @@
+.navList ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    height: 7rem;
+    align-items: center;
+
+}

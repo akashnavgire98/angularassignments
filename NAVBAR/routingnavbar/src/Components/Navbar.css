@@ -1,0 +1,35 @@
+.navBar{
+    display: grid;
+    grid-template-columns:3rem 1fr 1fr 3rem;
+    background-color: aqua;
+}
+
+ 
+.logo{
+    height: 7rem;
+    align-items: center;
+    display: grid;
+    grid-column: 2/3;
+}
+
+.logo img {
+    width: 4rem;
+}
+.navList{
+    height: 5rem;
+    width: 100%;
+    background-color: aqua;
+  
+}
+
+.navList ul a {
+    color: black;
+    text-decoration: none;
+}
+
+.navList ul a.active{
+    color: rgb(77, 32, 240);
+    border-bottom: solid 1px black;
+    font-weight: 700;
+    
+}
