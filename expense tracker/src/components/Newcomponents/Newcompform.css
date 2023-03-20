@@ -1,0 +1,30 @@
+.form_tag{
+    display: grid;
+    grid-template-columns: 30% 30%;
+}
+
+.first_Item{
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.second_Item{
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
+.third_Item{
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.fourth_Item{
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
+.add_butt{
+    background-color: rgb(66,36,66);
+    color: white;
+    margin-top: 20px;
+}
